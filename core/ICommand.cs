@@ -1,6 +1,6 @@
 ﻿namespace HWdTech
 {
-    public interface Command
+    public interface ICommand
     {
         void Execute();
     }

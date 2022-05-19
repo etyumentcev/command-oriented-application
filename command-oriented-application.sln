@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "core\core.csproj", "{428FEE18-1E45-4E1B-9201-221A9DBC1E7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{428FEE18-1E45-4E1B-9201-221A9DBC1E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428FEE18-1E45-4E1B-9201-221A9DBC1E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428FEE18-1E45-4E1B-9201-221A9DBC1E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428FEE18-1E45-4E1B-9201-221A9DBC1E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
